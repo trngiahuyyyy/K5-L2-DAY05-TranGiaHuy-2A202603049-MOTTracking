@@ -104,9 +104,8 @@ Dán phần tóm tắt in ra từ `src/check_submission.py`:
 === Tóm tắt ===
   Lỗi: 0   |   Cảnh báo: 1
   Không có lỗi định dạng. Mở CVAT xem lại từng [CẢNH BÁO]; cảnh báo đúng ý bạn thì ghi lý do vào báo cáo.
-
-Cảnh báo ở track 4 nhưng P5 đi nhanh, tốc độ không đều nên box đổi kích thước nhanh
 ```
+   Cảnh báo ở track 4 nhưng P5 đi nhanh, tốc độ không đều nên box đổi kích thước nhanh
 
 ## 6. Ba câu kết
 
@@ -119,6 +118,7 @@ Cảnh báo ở track 4 nhưng P5 đi nhanh, tốc độ không đều nên box 
    Không, tôi không chưa gặp trường hợp nào như thế.
 
 3. Một lỗi ID trong job của bạn (nếu không còn sót, chọn lỗi đã sửa) có thể làm xe tự lái dự đoán sai chuyển động của người đó như thế nào? Lỗi đó ảnh hưởng MOTA hay IDF1 nhiều hơn?
+
    ID track = 4 trước đó tôi có nhầm bbox cả phần balo, sau khi Giảng viên bảo không bao gồm phần túi xách/balo tôi đã loại bỏ. Theo tôi lỗi này ảnh hưởng IDF1 nhiều hơn MOTA. 
 
 ## Bonus (nếu làm)
